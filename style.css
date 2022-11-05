@@ -23,14 +23,14 @@ html{
 .top-header{
     position: relative;
     width: 100%;
-    letter-spacing: 25px;
+    letter-spacing: 20px;
     white-space: nowrap;/*  all items maintain in a line    */
 }
 a{
     text-decoration: none;
 }
 .container{
-  
+    
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -97,7 +97,7 @@ h1{
 /*-------------card body    ---------------*/
 
 .card-body{
-   
+    border: solid 1px lime;
     text-align: center;
     width: 95%;
 }
@@ -107,21 +107,21 @@ h1{
     
 }
 .color-container{
-    background-color: rgb(168, 152, 58);
+
+    background-color: rgb(162, 144, 45);
+    border-radius: 50px;
 }
 
 /*----------------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 700px) 
+{
 
     .top-header{
         letter-spacing: .4px;
     }
     h1{
        font-size: 20px; 
-    }
-    h2{
-        font-size: 25px;
     }
     
 }
