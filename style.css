@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Permanent+Marker&display=swap');
+
+.center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+.top-header{
+    position: relative;
+    width: 100%;
+    letter-spacing: 25px;
+    white-space: nowrap;/*  all items maintain in a line    */
+}
+a{
+    text-decoration: none;
+}
+.container{
+  
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    position: relative;
+    background: url("./images/ganesh.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+   height: 99vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+     
+   z-index: 1;
+
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+}
+.header{
+    position: absolute;
+    
+    text-align: center;
+    width: 95%;
+    height: 90vh;
+    z-index: 1;
+    opacity: 1;
+}
+
+.couple{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.couple-item{
+    width: 170px;
+}
+h1{
+    font-size: 25px;
+}
+.name-font{
+    font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
+    color: rgb(238, 211, 57);
+}
+
+/*-------------card body    ---------------*/
+
+.card-body{
+   
+    text-align: center;
+    width: 95%;
+}
+.content{
+   margin: 10px;
+    text-transform:lowercase;
+    
+}
+.color-container{
+    background-color: rgb(168, 152, 58);
+}
+
+/*----------------------------------*/
+
+@media (max-width: 700px) {
+
+    .top-header{
+        letter-spacing: .4px;
+    }
+    h1{
+       font-size: 20px; 
+    }
+    h2{
+        font-size: 25px;
+    }
+    
+}
