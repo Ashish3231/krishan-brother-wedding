@@ -26,9 +26,7 @@ html{
     letter-spacing: 20px;
     white-space: nowrap;/*  all items maintain in a line    */
 }
-a{
-    text-decoration: none;
-}
+
 .container{
     
     min-height: 100vh;
