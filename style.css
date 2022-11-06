@@ -34,7 +34,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     background: url("./images/ganesh.jpg");
     background-size: cover;
     background-position: center;
@@ -51,9 +51,8 @@ html{
    justify-content: center;
      
    z-index: 1;
-   
+ 
    border: solid 3px rgb(238, 211, 57);
-   border-radius: 30px;
 
 }
 .color{
@@ -113,7 +112,7 @@ h1{
 .color-container{
 
     background-color: rgb(162, 144, 45);
-    border-radius: 50px;
+   
 }
 
 /*----------------------------------*/
