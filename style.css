@@ -51,7 +51,9 @@ html{
    justify-content: center;
      
    z-index: 1;
+   
    border: solid 3px rgb(238, 211, 57);
+   border-radius: 30px;
 
 }
 .color{
